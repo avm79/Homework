@@ -36,7 +36,11 @@ body{
 .background{
     text-align: center;
     padding: 138px 0 180px; 
-    background-image:url(../img/image1.png) ;
+    background-image:url(../img/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .background_title{
