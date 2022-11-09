@@ -81,14 +81,15 @@ body{
 }
 
 .group1{
-    max-width:696px;
-    margin:221px auto 0;
     position: relative;
+    padding-top: 221px;
+
 }
 
 .group1_text{
+    max-width:696px;
+    margin: 0 auto;
     text-align: center;
-    width: 100%;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
@@ -102,7 +103,7 @@ body{
     background-color: #BFDEFB;
     position: absolute;
     left:0;
-    top: 1259px;
+    top: 100px;
 
 }
 
@@ -111,8 +112,8 @@ body{
     height: 121px;
     background-color: #BFDEFB;
     position: absolute;
-    left:0;
-    top: 1505px;
+    left: 0;
+    bottom: 0;
 
 }
 
@@ -122,20 +123,20 @@ body{
     background-color: #BFDEFB;
     position: absolute;
     right:0;
-    top: 1394px;
+    top: 235px;
 
 }
 
 
 .group2{
-    max-width:696px;
-    margin:216px auto 0;
-   
+    padding-top: 216px;
+
 }
 
 .group2_text{
+    max-width:696px;
+    margin:0 auto;
     text-align: center;
-    width: 100%;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
@@ -191,6 +192,10 @@ body{
     border-radius: 4px;
     padding: 36px 0 0 34px;
     box-sizing: border-box;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
     
 }
 
